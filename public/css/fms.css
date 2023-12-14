@@ -1,0 +1,43 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.btn-wrapper > button {
+  margin-right: 6px;
+}
+
+.status-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.status-wrapper h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 12px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: none;
+}
+
+.circle.green {
+  background-color: green;
+}
+
+.circle.red {
+  background-color: red;
+}
+
+.circle.active {
+  display: block;
+}

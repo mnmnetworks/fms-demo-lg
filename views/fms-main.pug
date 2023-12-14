@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  .btn-wrapper
+    button.btn-on On
+    button.btn-off Off
+    button.btn-reboot Reboot
+    button.btn-status Status
+  .status-wrapper
+    h2 FMS Status ::
+    .green.circle
+    .red.circle
